@@ -1,3 +1,51 @@
+POST http://localhost:8000/connexion
+Content-Type: application/json
+
+{
+  "email": "fred@parapluie.org",
+  "motdepasse": "test2"
+}
+
+<> 2019-02-20T120616.200.html
+
+###
+
+POST http://localhost:8000/connexion
+Content-Type: application/json
+
+{
+  "email": "fred@parapluie.org",
+  "motdepasse": "test"
+}
+
+<> 2019-02-20T120550.200.html
+
+###
+
+POST http://localhost:8000/connexion
+Content-Type: application/json
+
+{
+  "email": "fred@parapluie.org",
+  "motdepasse": "test"
+}
+
+<> 2019-02-20T120527.500.html
+
+###
+
+POST http://localhost:8000/joueur
+Content-Type: application/json
+
+{
+  "email": "fred@parapluie.org",
+  "motdepasse": "test"
+}
+
+<> 2019-02-20T120515.500.html
+
+###
+
 POST http://localhost:8000/joueur
 Content-Type: application/json
 

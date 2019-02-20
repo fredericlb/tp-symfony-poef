@@ -36,3 +36,15 @@ GET http://localhost:8000/verbes/random
 GET http://localhost:8000/verbes/check?preterit=hit&participePasse=hit&id=60
 
 ###
+
+POST http://localhost:8000/partie/1
+
+###
+
+GET http://localhost:8000/partie/1/update?preterit=hat&participePasse=hit&id=60
+
+###
+
+GET http://localhost:8000/partie/1/score
+
+###

@@ -1,0 +1,62 @@
+POST http://localhost:8000/joueur
+Content-Type: application/json
+
+{
+  "email": "fred@parapluie.org",
+  "prenom": "Frédéric",
+  "nom": "Langlade",
+  "motdepasse": "test",
+  "niveau": "débutant",
+  "idville": 1
+}
+
+<> 2019-02-20T101547.200.html
+
+###
+
+POST http://localhost:8000/joueur
+Content-Type: application/json
+
+{
+  "email": "fred@parapluie.org",
+  "prenom": "Frédéric",
+  "nom": "Langlade",
+  "motdepasse": "test",
+  "niveau": "débutant",
+  "idville": 1
+}
+
+<> 2019-02-20T101348.500.html
+
+###
+
+POST http://localhost:8000/joueur
+Content-Type: application/json
+
+{
+  "email": "fred@parapluie.org",
+  "prenom": "Frédéric",
+  "nom": "Langlade",
+  "motdepasse": "test",
+  "niveau": "débutant"
+}
+
+<> 2019-02-20T095114.500.html
+
+###
+
+POST http://localhost:8000/joueur
+Content-Type: application/json
+
+{
+  "email": "fred@parapluie.org",
+  "prenom": "Frédéric",
+  "nom": "Langlade",
+  "motdepasse": "test",
+  "niveau": "débutant"
+}
+
+<> 2019-02-20T095038.500.html
+
+###
+

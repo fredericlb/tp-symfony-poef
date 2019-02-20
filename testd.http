@@ -28,3 +28,11 @@ Content-Type: application/json
 }
 
 ###
+
+GET http://localhost:8000/verbes/random
+
+###
+
+GET http://localhost:8000/verbes/check?preterit=hit&participePasse=hit&id=60
+
+###

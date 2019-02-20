@@ -1,3 +1,27 @@
+GET http://localhost:8000/verbes/check?preterit=hit&participePasse=hit&id=60
+
+<> 2019-02-20T021309.200.html
+
+###
+
+GET http://localhost:8000/verbes/random
+
+<> 2019-02-20T021222.200.html
+
+###
+
+GET http://localhost:8000/verbes/random
+
+<> 2019-02-20T021216.200.html
+
+###
+
+GET http://localhost:8000/verbes/random
+
+<> 2019-02-20T021057.500.html
+
+###
+
 POST http://localhost:8000/connexion
 Content-Type: application/json
 

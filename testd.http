@@ -24,7 +24,7 @@ Content-Type: application/json
 
 {
   "email": "fred@parapluie.org",
-  "motdepasse": "test2"
+  "motdepasse": "test"
 }
 
 ###

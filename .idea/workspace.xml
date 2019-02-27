@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="259c7e8b-77d0-4ca7-a8b0-76e82cd94173" name="Default Changelist" comment="verbes methods">
-      <change afterPath="$PROJECT_DIR$/src/Controller/PartieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-02-20T034735.500.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-02-20T034735.500.html" afterDir="false" />
+    <list default="true" id="259c7e8b-77d0-4ca7-a8b0-76e82cd94173" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testd.http" beforeDir="false" afterPath="$PROJECT_DIR$/testd.http" afterDir="false" />
@@ -67,18 +65,9 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/question">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Repository/PartieRepository.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
+                <state relative-caret-position="396">
                   <caret line="20" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
@@ -87,7 +76,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Entity/Partie.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-49">
+                <state relative-caret-position="374">
                   <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
                 </state>
               </provider>
@@ -96,20 +85,38 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testd.http">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="22">
+                <state relative-caret-position="198">
                   <caret line="9" selection-start-line="9" selection-end-line="9" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controller/PartieController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="332">
-                  <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+                <state relative-caret-position="946">
+                  <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
                   <folding>
                     <element signature="e#34#56#0#PHP" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Controller/JoueurController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date_c.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="7458">
+                  <caret line="339" column="60" selection-start-line="339" selection-start-column="28" selection-end-line="339" selection-end-column="60" />
                 </state>
               </provider>
             </entry>
@@ -126,20 +133,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controller/VerbesController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
+                <state relative-caret-position="704">
                   <caret line="36" selection-start-line="36" selection-end-line="46" selection-end-column="43" />
                   <folding>
                     <element signature="e#34#55#0#PHP" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/verbe">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
                 </state>
               </provider>
             </entry>
@@ -165,12 +163,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/testd.http">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="608">
-                  <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+                <state relative-caret-position="402">
+                  <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -201,10 +199,10 @@
         <option value="$PROJECT_DIR$/src/Entity/Verbe.php" />
         <option value="$PROJECT_DIR$/src/Entity/Ville.php" />
         <option value="$PROJECT_DIR$/src/Entity/Joueur.php" />
-        <option value="$PROJECT_DIR$/src/Controller/JoueurController.php" />
         <option value="$PROJECT_DIR$/src/Controller/VerbesController.php" />
-        <option value="$PROJECT_DIR$/testd.http" />
         <option value="$PROJECT_DIR$/src/Controller/PartieController.php" />
+        <option value="$PROJECT_DIR$/testd.http" />
+        <option value="$PROJECT_DIR$/src/Controller/JoueurController.php" />
       </list>
     </option>
   </component>
@@ -313,61 +311,15 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="verbes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verbes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verbes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verbes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verbes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verbes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verbes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verbes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verbes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verbes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verbes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verbes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verbes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -382,6 +334,22 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000/connexion" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;fred@parapluie.org&quot;,&#10;  &quot;motdepasse&quot;: &quot;test&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:8000/partie/1/score" />
@@ -517,22 +485,6 @@
         </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8000/connexion" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;fred@parapluie.org&quot;,&#10;  &quot;motdepasse&quot;: &quot;test&quot;&#10;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8000/joueur" />
           <option name="urlPath" value="" />
           <option name="headers">
@@ -594,8 +546,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.testd#7">
-    <configuration name="testd#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/testd.http" index="3">
+  <component name="RunManager" selected="HTTP Request.testd#2">
+    <configuration name="testd#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/testd.http" index="2">
       <method v="2" />
     </configuration>
     <configuration name="testd#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/testd.http" index="4">
@@ -612,11 +564,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.testd#2" />
         <item itemvalue="HTTP Request.testd#7" />
         <item itemvalue="HTTP Request.testd#6" />
         <item itemvalue="HTTP Request.testd#5" />
         <item itemvalue="HTTP Request.testd#4" />
-        <item itemvalue="HTTP Request.testd#3" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +583,13 @@
       <option name="presentableId" value="Default" />
       <updated>1550650294244</updated>
       <workItem from="1550650295349" duration="10103000" />
-      <workItem from="1550673066312" duration="1004000" />
+      <workItem from="1550673066312" duration="1829000" />
+      <workItem from="1550733453160" duration="813000" />
+      <workItem from="1550758238170" duration="257000" />
+      <workItem from="1550763168319" duration="79000" />
+      <workItem from="1550779212481" duration="12000" />
+      <workItem from="1550789749230" duration="544000" />
+      <workItem from="1551086025329" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="connexion">
       <created>1550662216559</created>
@@ -647,22 +605,28 @@
       <option name="project" value="LOCAL" />
       <updated>1550668450981</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="partie controller">
+      <created>1550674211101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550674211101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11107000" />
+    <option name="totallyTimeSpent" value="13659000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29872206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37876105" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50306123" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -685,7 +649,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connexion" />
     <MESSAGE value="verbes methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="verbes methods" />
+    <MESSAGE value="partie controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="partie controller" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5338fa8a-023c-4872-8d73-41da51b1be10/console.sql">
@@ -738,13 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/joueur">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/joueur" />
     <entry file="file://$PROJECT_DIR$/src/Entity/Joueur.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
@@ -752,27 +711,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/JoueurController.php">
+    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/ville" />
+    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/partie" />
+    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/question" />
+    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/verbe" />
+    <entry file="file://$PROJECT_DIR$/src/Repository/PartieRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="396">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Partie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PartieController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
           <folding>
             <element signature="e#34#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/ville">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/partie">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7458">
+          <caret line="339" column="60" selection-start-line="339" selection-start-column="28" selection-end-line="339" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -783,10 +753,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/verbe">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/VerbesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="36" selection-start-line="36" selection-end-line="46" selection-end-column="43" />
+          <folding>
+            <element signature="e#34#55#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -804,51 +777,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/PartieRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Partie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/VerbesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="36" selection-start-line="36" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="e#34#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testd.http">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="198">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="das://5338fa8a-023c-4872-8d73-41da51b1be10/schema/englishbattle/table/question">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/PartieController.php">
+    <entry file="file://$PROJECT_DIR$/src/Controller/JoueurController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
-          <folding>
-            <element signature="e#34#56#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>

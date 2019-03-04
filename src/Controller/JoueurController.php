@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Joueur;
 use App\Entity\Ville;
-use App\Repository\JoueurRepository;
+//use App\Repository\JoueurRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -26,7 +26,7 @@ class JoueurController extends AbstractController
     $ville = $villesRepository->find($data->idville);
 
     $joueur = new Joueur();
-    $joueur = $joueur;
+    //$joueur = $joueur;
     $joueur->setEmail($data->email);
     $joueur->setNom($data->nom);
     $joueur->setPrenom($data->prenom);
@@ -42,7 +42,7 @@ class JoueurController extends AbstractController
   }
 
   /**
-   * @Route("/connexion", methods={ "POST" })
+   * @Route("/connexion", methods={"POST"})
    */
   public function connexion(Request $req) {
     $content = $req->getContent();

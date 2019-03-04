@@ -6,6 +6,7 @@ use App\Entity\Joueur;
 use App\Entity\Partie;
 use App\Entity\Question;
 use App\Entity\Verbe;
+use DateTime;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -52,8 +53,8 @@ class PartieController extends AbstractController
       $q->setIdverbe($verb);
       $q->setReponseparticipepasse($participePasse);
       $q->setReponsepreterit($preterit);
-      $q->setDateenvoi(new \DateTime());
-      $q->setDatereponse(new \DateTime());
+      $q->setDateenvoi(new DateTime());
+      $q->setDatereponse(new DateTime());
       $entityManager->persist($q);
     }
 

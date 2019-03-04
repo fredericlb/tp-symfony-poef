@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class VerbesController extends AbstractController
 {
     /**
-     * @Route("/verbes/random", methods={ "GET" })
+     * @Route("/verbes/random", methods={"GET"})
      */
     public function getRandomVerb() {
       $verbsRepository = $this->getDoctrine()->getRepository(Verbe::class);
@@ -31,7 +31,9 @@ class VerbesController extends AbstractController
     }
 
     /**
-     * @Route("/verbes/check", methods={ "GET" })
+     * @Route("/verbes/check", methods={"GET"})
+     * @param Request $req
+     * @return Response|null
      */
     public function checkVerb(Request $req) {
       $preterit = $req->get('preterit');

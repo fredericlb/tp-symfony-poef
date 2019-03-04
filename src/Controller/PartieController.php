@@ -57,7 +57,7 @@ class PartieController extends AbstractController
       $entityManager->persist($q);
     }
 
-    $entityManager->flush();
+    $t = $entityManager->flush();
     return new Response();
   }
 

@@ -26,6 +26,7 @@ class JoueurController extends AbstractController
     $ville = $villesRepository->find($data->idville);
 
     $joueur = new Joueur();
+    $joueur = $joueur;
     $joueur->setEmail($data->email);
     $joueur->setNom($data->nom);
     $joueur->setPrenom($data->prenom);
@@ -46,6 +47,7 @@ class JoueurController extends AbstractController
   public function connexion(Request $req) {
     $content = $req->getContent();
     $data = json_decode($content);
+    $a = 3;
 
     $joueurRepository = $this->getDoctrine()->getRepository(Joueur::class);
 
